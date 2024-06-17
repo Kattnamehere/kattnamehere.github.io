@@ -16,7 +16,7 @@ function updateTime() {
     const now = new Date();
 
     // Convert to CEST by adding the CEST offset (UTC+2)
-    const cestOffset = 2 * 60 * 60 * 1000; // CEST is UTC+2 hours in milliseconds
+    const cestOffset = 60 * 60 * 1000; // CEST is UTC+2 hours in milliseconds
     const cestTime = new Date(now.getTime() + cestOffset);
 
     // Format the time in 24-hour format
