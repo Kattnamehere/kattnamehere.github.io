@@ -63,7 +63,7 @@ function updateQuotes() {
 
 async function updateLastUpdateWidget() {
     const lastUpdateElement = document.getElementById('last-update');
-    const githubRepo = 'katnamehere/katnamehere.github.io';
+    const githubRepo = 'kattnamehere/kattnamehere.github.io';
     const githubApiUrl = `https://api.github.com/repos/${githubRepo}/commits?per_page=1`;
 
     try {
