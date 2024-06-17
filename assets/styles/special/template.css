@@ -13,8 +13,8 @@
     --text-color: #ffffff;
     --accent-purple: #006064;
     --accent-purple-pink: #d946ef;
-    --accent-pink: #006064;
-    --accent-pink-light: #00838f;
+    --accent-pink: #0097a7;
+    --accent-pink-light: #00acc1;
 }
 
 body {
@@ -59,9 +59,9 @@ p {
 }
 
 .container-highlight {
-    border: 2px solid rgba(253, 161, 153, 0.6);
-    box-shadow: 0 0 10px rgba(253, 161, 153, 0.6),
-                0 0 20px rgba(255, 217, 214, 0.2);
+    border: 2px solid var(--accent-pink);
+    box-shadow: 0 0 10px var(--accent-pink),
+                0 0 20px var(--accent-pink-light);
 }
 
 header {
