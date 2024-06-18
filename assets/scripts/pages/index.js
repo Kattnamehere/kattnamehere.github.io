@@ -47,11 +47,11 @@ function updateTime() {
 
 function updateQuotes() {
     let quotes = [
-        "bingo bingo baby<span class='love-text love-glow'> I love you </span>ain't that crazy!?!?",
-        "it ain't stupid if it works",
+        "the tiny little people whisper to me in my walls",
+        "made you look lol",
         "<span class='trans-text'>trans lives matter :3 !!</span>",
-        "im not lazy, im on energy-saving mode",
-        "im not short, just fun-sized :3"
+        "alcohol is the key to me living",
+        "im not short, just fun-sized"
     ];
 
     let quoteElement = document.querySelector(".daily-quote");
